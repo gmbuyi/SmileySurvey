@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical"
+            android:layout_gravity="bottom|end"
+            tools:ignore="UselessParent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@android:drawable/ic_menu_manage"
+        app:backgroundTint="@color/black"
+        android:contentDescription="@string/settings_button"
+        app:fabSize="mini"
+         />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/export"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/close_fab_margin"
+            android:contentDescription="@string/export_button"
+            android:src="@android:drawable/ic_menu_set_as"
+            android:visibility="invisible"
+            app:backgroundTint="@color/black"
+            app:fabSize="mini"
+
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/options_button"
+            android:src="@android:drawable/ic_input_add"
+            app:backgroundTint="@color/black"
+            tools:ignore="ImageContrastCheck" />
+
+</LinearLayout>
+
+
+
+</FrameLayout>

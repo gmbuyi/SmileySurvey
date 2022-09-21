@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+   >
+
+    <androidx.preference.PreferenceCategory android:title="Reasons settings">
+        <androidx.preference.SwitchPreference
+            android:defaultValue="false"
+            android:key="reason_switch"
+            android:summary="Enable or disable this option"
+            android:title="Dissatisfied reasons" />
+
+
+
+    </androidx.preference.PreferenceCategory>
+
+
+
+    <androidx.preference.PreferenceCategory android:title="Reason List">
+
+        <androidx.preference.EditTextPreference
+            android:key="reason_one_editText"
+            android:title="First reason"
+            android:defaultValue="PRICE"
+            />
+
+
+        <androidx.preference.EditTextPreference
+            android:key="reason_two_editText"
+            android:title="Second reason"
+            android:defaultValue="PRODUCT QUALITY"
+            />
+
+        <androidx.preference.EditTextPreference
+            android:key="reason_three_editText"
+            android:title="Third reason"
+            android:defaultValue="SERVICES"
+            />
+
+
+    </androidx.preference.PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SurveyEmojisApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="options_button">Options fab Button</string>
+    <string name="export_button">Export fab Button</string>
+    <string name="settings_button">Setting fab Button</string>
+    <string name="reasons_title_dialog">Let us known why are you dissatisfied ?</string>
+    <string name="title">PLEASE RATE OUR SERVICES</string>
+    <string name="export_text">Exporting CSV Report</string>
+    <string name="final_dialog_text">THANK YOU FOR TAKING TIME \n FILL OUT OUR SURVEY</string>
+    <string name="validate">Validate</string>
+    <string name="cancel">Cancel</string>
+    <string name="validate_text">PLEASE VALIDATE TO CONFIRM OR CANCEL YOUR CHOICE</string>
+    <string name="reasons_dialog">LET US KNOW THE REASON \nWHY ARE YOU DISSATISFIED</string>
+
+
+</resources>
