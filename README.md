@@ -41,7 +41,7 @@ To run this app:
 1. Clone the project in your computer
 2. copy the .apk file in the android smartphone minimum android 8.0
 3. tap on the apk file in the phone
-4. authorize installation of unknown sources in setting 
+4. authorize installation of unknown sources in the smartphone setting 
 5. install the app
 
 ```
