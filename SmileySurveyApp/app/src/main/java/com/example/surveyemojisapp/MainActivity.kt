@@ -9,11 +9,8 @@ import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.os.Environment
-import android.view.ContextThemeWrapper
-import android.view.LayoutInflater
 import android.view.WindowInsets
 import android.view.WindowInsetsController
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.preference.PreferenceManager
@@ -27,7 +24,6 @@ import kotlinx.android.synthetic.main.content_main.*
 import kotlinx.android.synthetic.main.fab_layout.*
 import java.text.SimpleDateFormat
 import java.util.*
-import java.util.jar.Manifest
 
 
 class MainActivity : AppCompatActivity(){
@@ -140,7 +136,7 @@ class MainActivity : AppCompatActivity(){
             != PackageManager.PERMISSION_GRANTED){
 
                   ActivityCompat.requestPermissions(this,
-                      arrayOf<String>(android.Manifest.permission.READ_EXTERNAL_STORAGE,android.Manifest.permission.WRITE_EXTERNAL_STORAGE),1)
+                      arrayOf(android.Manifest.permission.READ_EXTERNAL_STORAGE,android.Manifest.permission.WRITE_EXTERNAL_STORAGE),1)
 
 
               }

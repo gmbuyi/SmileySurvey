@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.button_dialog.*
 import java.util.concurrent.Executors
 
 class ConfirmationDialog(context: Context, private val database : SurveyDatabase,
-                          val survey : Survey, val selectedList : List<String>) : Dialog(context) {
+                         val survey : Survey, private val selectedList : List<String>) : Dialog(context) {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
